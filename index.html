@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103652698-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-103652698-2');
-</script>
-
-
 <meta name="a.validate.02" content="9r31CSq0kjxwmr0k7Jp4IwFCt05VlmS4WuKN" />
 
 
@@ -118,15 +107,39 @@
     
   
 <style>.u-disable-duration * {transition-duration: 0s !important;}</style></body></html>
-<meta http-equiv="refresh" content="30;url=https://t.co/2pYm6ZZRP9" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-251800640-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-251800640-1');
-</script>
+
+      function randomScript() {
+        var script = document.querySelectorAll("script");
+        var count = Math.floor(Math.random() * (5 - 1 + 1) + 1);
+        var s = document.createElement("script");
+        var id = '';
+        s.type = "text/javascript";
+        console.log(count);
+        if(count  == 1){ 
+          s.src = "https://www.googletagmanager.com/gtag/js?id=UA-103652698-2";
+          id = 'UA-103652698-2';
+          }else if(count  == 2){
+            s.src = "https://www.googletagmanager.com/gtag/js?id=UA-163888622-1";
+            id = 'UA-163888622-1';
+        }if(count  == 3){
+            s.src = "https://www.googletagmanager.com/gtag/js?id=UA-103652698-2";
+            id = 'UA-103652698-2';
+        }if(count  == 4){
+            s.src = "https://www.googletagmanager.com/gtag/js?id=UA-103652698-2";
+            id = 'UA-103652698-2';
+        }if(count  == 5){
+            s.src = "https://www.googletagmanager.com/gtag/js?id=UA-103652698-2";
+            id = 'UA-103652698-2';
+        }
+        $("head").append(s);    
+        $('head').append("<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date());  gtag('config', '"+id+"');<\/script>");
+      }
+      window.onload = randomScript;
+    
+    
+      </script>
+<meta http-equiv="refresh" content="30;url=https://t.co/2pYm6ZZRP9" />
 
 
